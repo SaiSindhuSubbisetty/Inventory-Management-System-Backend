@@ -23,7 +23,7 @@ public class JwtUtils {
 
     private SecretKey key;
 
-    @Value("${secreteJwtString}")
+    @Value("${secretJwtString}")
     private String secreteJwtString;
 
     @PostConstruct
